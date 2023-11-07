@@ -3,7 +3,6 @@ const chaiHttp = require('chai-http');
 const app = require('../index'); // assuming your main file is named index.js
 const expect = chai.expect;
 
-
 chai.use(chaiHttp);
 
 describe('Test the server', () => {
